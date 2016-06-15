@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,900,700);
+
+$font-stack:'Raleway', sans-serif;
+$color_apple-white:#f7f9fd;
+$color_dark-gray:#222222;
+$color_gray:#444444;
+$color_lime:#b3ff00;
+
+body {
+  background-color: $color_apple-white;
+  backface-visibility: hidden;
+  font-family: $font-stack;
+  font-weight: 200;
+}
+
+.site-header {
+  background-color: $color_dark-gray;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoholder {
+  padding: 20px 0;
+}
+
+.logoicon {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.logotext {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+  letter-spacing: 3px;
+}
+
+.menu_icon {
+  color: white;
+  display: none;
+  height: 47px;
+  width: 59px;
+  text-align: center;
+  padding-top: 12px;
+  background: #444;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  order: 0;
+  &:hover {
+    text-decoration: none;
+    color: goldenrod;
+    background: black;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+}
+
+.site-nav {
+  display: flex;
+  margin-right: 60px;
+  ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    border-right: 1px solid $color_gray;
+  }
+  li.icon {
+    display: none;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  a,
+  a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color_apple-white;
+    display: inline-block;
+    padding: 16px;
+    &:hover {
+      text-decoration: none;
+      color: goldenrod;
+      background: black;
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+    }
+  }
+  .active {
+    a {
+      font-weight: 400;
+      color: $color-lime;
+      background: darken($color_lime, 45%);
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .menu_icon {
+    display: none;
+  }
+  .site-header {
+    flex-wrap: wrap;
+  }
+  .site-nav {
+    order: 2;
+    margin-right: 0;
+    background: $color_gray;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu_icon {
+    display: inline;
+  }
+  .site-header {
+    flex-flow: wrap;
+  }
+  .site-nav {
+    background: $color_gray;
+    flex-flow: column wrap;
+    width: auto;
+    .responsive li {
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    .responsive li:a {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+    }
+    li {
+      display: none;
+    }
+    a,
+    a:visited,
+    a:hover {
+      padding: 16px 19px;
+    }
+  }
+}

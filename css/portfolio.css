@@ -1,0 +1,161 @@
+.portfolio-cards{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.card-holder {
+    display:flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-flow:row wrap;
+    width:100%;
+    min-height: 220px;
+    padding:0;
+    margin:0;
+}
+.flipping-card{
+    width: 240px;
+    height: 220px;
+    margin: auto;
+}
+.flipping-card a, 
+.flipping-card a:hover,
+.flipping-card a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-shadow {
+    position:absolute;
+    top:132px;
+    left:0;
+    color:white;
+    background: rgba(0,0,0,0.5);
+    width:100%;
+    height:40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0;
+}
+
+.project-title{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.project-date,
+.project-client,
+.project-desc{
+    font-size: 0.8rem;
+}
+
+
+/* Flip Panel */
+.panel {
+	margin: 0 auto;
+	height: 130px;  
+	position: relative;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+
+.panel .front,
+.panel .back {
+	text-align: center;
+}
+	
+.panel .front {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.panel .back {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.box1{
+    background-color: #F2C744;
+    background: url(https://image.freepik.com/free-vector/modern-abstract-background_1048-1003.jpg) center;
+    background-size:cover;
+    box-shadow: 0 6px 6px -4px  rgba(0, 0, 0, 0.3);
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+    border: 1px solid #eee;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.box2{
+	background-color: #F7F9FD;
+    box-shadow: 0 6px 6px -4px  rgba(0, 0, 0, 0.3);
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+    border: 1px solid #009CDE;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/** Portfolio Images **/
+.box1 img {
+    height:100%;
+    text-align: center;
+    align-self: center
+    
+}
+.box1.websample {
+    background: url(https://www.website.com/img/skin/home/m1-cs.jpg) center;
+    background-size:cover;
+}
+.box1.appsample {
+    background: url(https://d13yacurqjgara.cloudfront.net/users/310943/screenshots/1894097/health-app-android-ui.png) center;
+    background-size:cover;
+}
+.box1.archsample {
+    background: url(http://www.archello.com/sites/default/files/imagecache/header_detail_large/architecturalvisualizationluxuryhouse2.jpg) center;
+    background-size:cover;
+}
+.box1.charsample {
+    background: url(https://omnicvault.com/temp/cutesprays/hanzo_x.png) center;
+    background-size:cover;
+}
