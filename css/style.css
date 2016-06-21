@@ -151,7 +151,7 @@ p{
     transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
 }
-.site-nav .active a {
+.site-nav a.active {
     color: #009CDE;
     background: rgba(0,5,7,0.25);
     font-weight: 400;

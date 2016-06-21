@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage="Rios Creative Home"; ?>
 <html>
 <head>
         <meta charset="UTF-8">
@@ -7,11 +8,12 @@
         <link rel="stylesheet" href="../css/icons.css">
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="p:domain_verify" content="5f58fe2760290898813d7d0d57a2c14a"/>
 </head>
     
 <body>
-        <header class = "site-header" w3-include-html="../inc/header.html">
-        </header>
+        <?php include "/inc/header.php"; ?>
+    
         <main>
             <section class="content-wrapper">
                 <div class="large-outer-glass">
@@ -24,9 +26,9 @@
                 </div>
             </section>
         </main>
-        <footer class="site-footer" w3-include-html="../inc/footer.html">
-        </footer>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    
+        <?php include "/inc/footer.php"; ?>
+    
     <script type="text/javascript">
         function downloadJSAtOnload() {
         var element = document.createElement("script");
@@ -39,6 +41,5 @@
         window.attachEvent("onload", downloadJSAtOnload);
         else window.onload = downloadJSAtOnload;
     </script>
-    <script>w3IncludeHTML();</script>
 </body>
 </html>

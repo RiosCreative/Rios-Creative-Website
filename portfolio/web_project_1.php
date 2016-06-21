@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage="Web Project Sample"; ?>
 <html>
 <head>
         <meta charset="UTF-8">
@@ -10,8 +11,9 @@
 </head>
     
 <body>
-        <header class = "site-header" w3-include-html="../inc/header.html">
-        </header>
+    
+        <?php include "../inc/header.php"; ?>
+    
         <main>
             <section class="content-wrapper">
                 <div class="large-outer-glass">
@@ -23,8 +25,9 @@
                 </div>
             </section>
         </main>
-        <footer class="site-footer" w3-include-html="../inc/footer.html">
-        </footer>
+    
+        <?php include "../inc/footer.php"; ?>
+    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script type="text/javascript">

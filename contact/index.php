@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage="Contact"; ?>
 <html>
 <head>
         <meta charset="UTF-8">
@@ -8,12 +9,11 @@
         <link rel="stylesheet" href="../css/icons.css">
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-        <script src="http://www.w3schools.com/lib/w3data.js"></script>
 </head>
     
 <body>
-        <header class = "site-header" w3-include-html="../inc/header.html">
-        </header>
+        <?php include "../inc/header.php"; ?>
+    
         <main>
             <section class="content-wrapper">
                 <div class="large-outer-glass">
@@ -38,10 +38,10 @@
                 </div>
             </section>
         </main>
-        <footer class="site-footer" w3-include-html="../inc/footer.html">
-        </footer>
+        
+        <?php include "../inc/footer.php"; ?>
+    
     <script>
-        w3IncludeHTML();
         var contactform =  document.getElementById('form-action');
         contactform.setAttribute('action', '//formspree.io/' + 'luis' + '@' + 'rioscreative' + '.' + 'com');
     </script>
