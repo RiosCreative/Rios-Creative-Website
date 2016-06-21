@@ -28,7 +28,7 @@
                                 <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
                                 <label for="message">Message: <span class="required">*</span></label>
                                 <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
-                                <input type="hidden" name="_next" value="../contact/thanks.html" />
+                                <input type="hidden" name="_next" value="../contact/thanks.php" />
                                 <input type="text" name="_gotcha" style="display:none" />
                                 <input type="submit" value="Send Email" id="submit-button" />
                                 <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>

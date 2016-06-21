@@ -2,11 +2,12 @@
 <html>
 <head>
         <meta charset="UTF-8">
-        <title>About Luis Rios | Front-End Engineer &amp; UI/UX  Developer</title>
+        <title>Luis Rios | Front-End Engineer &amp; UI/UX  Developer</title>
         <link rel="stylesheet" href="../css/style.css"> 
         <link rel="stylesheet" href="../css/icons.css">
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="p:domain_verify" content="5f58fe2760290898813d7d0d57a2c14a"/>
         <script src="http://www.w3schools.com/lib/w3data.js"></script>
 </head>
     
@@ -17,9 +18,9 @@
             <section class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>Sample Web Project</span></h1>
-                        <h3>Client/University Course &nbsp;| &nbsp;YEAR</h3>
-                        <p>This site is currently under development. See you soon with some great stuff!</p>
+                        <h1><span>404 ERROR</span></h1>
+                        <h3 class="text-center">File not found</h3>
+                        <p class="text-center">You seem to have lost your way...</p>
                     </div>
                 </div>
             </section>
