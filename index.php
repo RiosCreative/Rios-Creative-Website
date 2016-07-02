@@ -6,13 +6,14 @@
         <title>Luis Rios | Front-End Engineer &amp; UI/UX  Developer</title>
         <link rel="stylesheet" href="../css/style.css"> 
         <link rel="stylesheet" href="../css/icons.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,700,900' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="p:domain_verify" content="5f58fe2760290898813d7d0d57a2c14a"/>
 </head>
     
 <body>
-        <?php include "/inc/header.php"; ?>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/inc/header.php"); ?>
     
         <main>
             <section class="content-wrapper">
@@ -27,8 +28,9 @@
             </section>
         </main>
     
-        <?php include "/inc/footer.php"; ?>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>
     
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script type="text/javascript">
         function downloadJSAtOnload() {
         var element = document.createElement("script");

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/style.css"> 
         <link rel="stylesheet" href="../css/portfolio.css">
         <link rel="stylesheet" href="../css/icons.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,700,900' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
@@ -38,7 +39,7 @@
                                       </div>
                                       <div class="back">
                                         <div class="box2">
-                                            <a href="web_project_1.html">
+                                            <a href="web_project_1.php">
                                                 <span class="project-title">Web Project Title</span><br>
                                                 <span class="project-client">Client/Course</span> | 
                                                 <span class="project-date">Date</span><br><br>
@@ -62,7 +63,7 @@
                                       </div>
                                       <div class="back">
                                         <div class="box2">
-                                            <a href="web_project_1.html">
+                                            <a href="web_project_1.php">
                                                 <span class="project-title">Web Project Title</span><br>
                                                 <span class="project-client">Client/Course</span> | 
                                                 <span class="project-date">Date</span><br><br>
@@ -111,7 +112,7 @@
                                       </div>
                                       <div class="back">
                                         <div class="box2">
-                                            <a href="web_project_1.html">
+                                            <a href="web_project_1.php">
                                                 <span class="project-title">Web Project Title</span><br>
                                                 <span class="project-client">Client/Course</span> | 
                                                 <span class="project-date">Date</span><br><br>

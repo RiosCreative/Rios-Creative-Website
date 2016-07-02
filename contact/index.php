@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/contact.css">
         <link rel="stylesheet" href="../css/icons.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,700,900' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
