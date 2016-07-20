@@ -16,19 +16,21 @@
         <?php include "../inc/header.php"; ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>Contact</span></h1>
-                        <h3 class="text-center">Send me a message</h3>  
+                        <hgroup>
+                            <h1><span>Contact</span></h1>
+                            <h3 class="text-center">Send me a message</h3>  
+                        </hgroup>
                         <div id="contact-form" class="clearfix">
                             <form id="form-action" method="POST">
                                 <label for="name">Your Name: <span class="required">*</span></label>
-                                <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+                                <input type="text" id="name" name="name" value="" placeholder="John Doe" required autofocus />
                                 <label for="email">Email Address: <span class="required">*</span></label>
-                                <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+                                <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required />
                                 <label for="message">Message: <span class="required">*</span></label>
-                                <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+                                <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"></textarea>
                                 <input type="hidden" name="_next" value="../contact/thanks.php" />
                                 <input type="text" name="_gotcha" style="display:none" />
                                 <input type="submit" value="Send Email" id="submit-button" />
@@ -37,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
         
         <?php include "../inc/footer.php"; ?>

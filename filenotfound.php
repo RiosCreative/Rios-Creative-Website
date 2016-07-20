@@ -16,15 +16,17 @@
         <?php include "../inc/header.php"; ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>404 ERROR</span></h1>
-                        <h3 class="text-center">File not found</h3>
+                        <hgroup>
+                            <h1><span>404 ERROR</span></h1>
+                            <h3 class="text-center">File not found</h3>
+                        </hgroup>
                         <p class="text-center">You seem to have lost your way...</p>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
     
         <?php include "../inc/footer.php"; ?>

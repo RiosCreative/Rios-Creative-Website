@@ -16,15 +16,17 @@
         <?php include "../inc/header.php"; ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>Inspiration</span></h1>
-                        <h3 class="text-center">People and Companies that inspire me</h3>
+                        <hgroup>
+                            <h1><span>Inspiration</span></h1>
+                            <h3 class="text-center">People and Companies that inspire me</h3>
+                        </hgroup>
                         <p class="text-center">This site is currently under development. See you soon with some great stuff!</p>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
         
         <?php include "../inc/footer.php"; ?>

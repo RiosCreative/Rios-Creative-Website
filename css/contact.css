@@ -134,7 +134,7 @@
     font-style:italic;
 }
  
-/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+/* Remove box shadow firefox, chrome and opera put around required fields. */
 input:required, textarea:required {
     -moz-box-shadow:none;
     -webkit-box-shadow:none;

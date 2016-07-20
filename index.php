@@ -16,16 +16,18 @@
         <?php include($_SERVER['DOCUMENT_ROOT']."/inc/header.php"); ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>Luis Rios</span></h1>
-                        <h3 class="text-center">Aspiring Front-End Engineer | UI/UX  Developer</h3>
+                        <hgroup>
+                            <h1><span>Luis Rios</span></h1>
+                            <h3 class="text-center">Front-End Engineer &amp; UI/UX  Developer</h3>
+                        </hgroup>
                         <p class="email text-center"><a href="mailto:name@email.com">luis@rioscreative.com</a></p><br><br>
                         <p class="text-center">This site is currently under development. See you soon with some great stuff!</p>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
     
         <?php include($_SERVER['DOCUMENT_ROOT']."/inc/footer.php"); ?>

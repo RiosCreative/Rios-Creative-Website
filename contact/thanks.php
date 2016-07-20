@@ -16,14 +16,16 @@
         <?php include "../inc/header.php"; ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
-                        <h1><span>Contact Success!</span></h1>                       
+                        <hgroup>
+                            <h1><span>Contact Success!</span></h1>
+                        </hgroup>                    
                         <p class="text-center">Thanks for your message! I will get back to you ASAP!</p>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
             
         <?php include "../inc/footer.php"; ?>    

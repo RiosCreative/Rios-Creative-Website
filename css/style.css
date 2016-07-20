@@ -452,7 +452,8 @@ and (max-width : 800px){
         font-weight:400;
     }
     p{
-        line-height: 1.25rem
+        line-height: 1.5rem;
+        font-size:1.1rem;
     }
     #menubox, .menuicon {
         display: none;

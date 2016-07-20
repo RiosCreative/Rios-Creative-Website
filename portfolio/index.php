@@ -17,15 +17,14 @@
         <?php include "../inc/header.php"; ?>
     
         <main>
-            <section class="content-wrapper">
+            <article class="content-wrapper">
                 <div class="large-outer-glass">
                     <div class="large-inner-glass">
                         <h1><span>Portfolio</span></h1>
                         
                         <div class="portfolio-cards">
                             <h2>Web Projects</h2>
-                            <div class="card-holder">
-                                
+                            <section class="card-holder">
                                 <div class="flipping-card">
                                     <div class="hover panel">
                                       <div class="front">
@@ -73,61 +72,11 @@
                                       </div>
                                     </div>
                                 </div>
-                                
-                                <div class="flipping-card">
-                                    <a href="#2">
-                                    <div class="hover panel">
-                                      <div class="front">
-                                        <div class="box1"></div>
-                                        <div class="card-shadow">
-                                            <span class="project-title">Web Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span>
-                                        </div>
-                                        
-                                      </div>
-                                      <div class="back">
-                                        <div class="box2">
-                                            <span class="project-title">Web Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span><br><br>
-                                            <span class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis egestas. Pellentesque tortor arcu, mollis a turpis in, laoreet auctor ligula.</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="flipping-card">
-                                    <a href="#3">
-                                    <div class="hover panel">
-                                      <div class="front">
-                                        <div class="box1"></div>
-                                        <div class="card-shadow">
-                                            <span class="project-title">Web Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span>
-                                        </div>
-                                        
-                                      </div>
-                                      <div class="back">
-                                        <div class="box2">
-                                            <a href="web_project_1.php">
-                                                <span class="project-title">Web Project Title</span><br>
-                                                <span class="project-client">Client/Course</span> | 
-                                                <span class="project-date">Date</span><br><br>
-                                                <span class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis egestas. Pellentesque tortor arcu, mollis a turpis in, laoreet auctor ligula.</span>
-                                            </a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
+                            </section>
+                            
                             
                             <h2>App Projects</h2>
-                            <div class="card-holder">
-                                
+                            <section class="card-holder">
                                 <div class="flipping-card">
                                     <div class="hover panel">
                                       <div class="front">
@@ -173,34 +122,10 @@
                                     </div>
                                     </a>
                                 </div>
-                                
-                                <div class="flipping-card">
-                                    <a href="#6">
-                                    <div class="hover panel">
-                                      <div class="front">
-                                        <div class="box1"></div>
-                                        <div class="card-shadow">
-                                            <span class="project-title">App Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span>
-                                        </div>
-                                        
-                                      </div>
-                                      <div class="back">
-                                        <div class="box2">
-                                            <span class="project-title">App Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span><br><br>
-                                            <span class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis egestas. Pellentesque tortor arcu, mollis a turpis in, laoreet auctor ligula.</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
+                            </section>
                             
                             <h2>Architecture Projects</h2>
-                            <div class="card-holder">
+                            <section class="card-holder">
                                 <div class="flipping-card">
                                     <a href="#7">
                                     <div class="hover panel">
@@ -248,34 +173,10 @@
                                     </div>
                                     </a>
                                 </div>
-                                
-                                <div class="flipping-card">
-                                    <a href="#9">
-                                    <div class="hover panel">
-                                      <div class="front">
-                                        <div class="box1"></div>
-                                        <div class="card-shadow">
-                                            <span class="project-title">Architecture Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span>
-                                        </div>
-                                        
-                                      </div>
-                                      <div class="back">
-                                        <div class="box2">
-                                            <span class="project-title">Architecture Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span><br><br>
-                                            <span class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis egestas. Pellentesque tortor arcu.</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
+                            </section>
                             
                             <h2>Art &amp; Design Projects</h2>
-                            <div class="card-holder">
+                            <section class="card-holder">
                                 <div class="flipping-card">
                                     <a href="#10">
                                     <div class="hover panel">
@@ -323,41 +224,16 @@
                                     </div>
                                     </a>
                                 </div>
-                                
-                                <div class="flipping-card">
-                                    <a href="#12">
-                                    <div class="hover panel">
-                                      <div class="front">
-                                        <div class="box1"></div>
-                                        <div class="card-shadow">
-                                            <span class="project-title">Art/Design Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span>
-                                        </div>
-                                        
-                                      </div>
-                                      <div class="back">
-                                        <div class="box2">
-                                            <span class="project-title">Art/Design Project Title</span><br>
-                                            <span class="project-client">Client/Course</span> | 
-                                            <span class="project-date">Date</span><br><br>
-                                            <span class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis egestas. Pellentesque tortor arcu.</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                            </section>
+                        </div><!-- END Portfolio Cards -->
                         
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
         
         <?php include "../inc/footer.php"; ?>
-    
-</body>
+
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
       <script type="text/javascript">
         function downloadJSAtOnload() {
@@ -382,4 +258,6 @@
                 $(this).removeClass('flip');
             });
 	});</script>
+        
+</body>
 </html>
