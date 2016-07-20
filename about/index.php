@@ -26,7 +26,8 @@
                         <div class="full-info-holder">
                             <div class="text-main">
                                 <h2 >I'm an aspiring Front End Engineer and UX/UI Developer.</h2>
-                                <p>Hi! My name is Luis Rios. I am a designer/developer who enjoys creating intuitive, beautiful and versatile designs to solve complex problems, entice audiences, or just for pure artistic pleasure. I work with a variety of mediums, doing my best to actively employ all of my skills in software development, UI/UX, architecture, and fine arts to each new opus. As often as possible, I challenge myself to learn new tools and techniques to broaden my design knowledge base and share what I learn with others.</p>
+                                <p>Hi! My name is Luis Rios. I am a designer/developer who enjoys creating intuitive, beautiful and versatile designs to solve complex problems, entice audiences, or just for pure artistic pleasure.</p>
+                                <p>I work with a variety of mediums, doing my best to actively employ all of my skills in software development, UI/UX, architecture, and fine arts to each new opus. As often as possible, I challenge myself to learn new tools and techniques to broaden my design knowledge base and share what I learn with others.</p>
                                 <p>Thanks for visiting!</p>
                             </div>
                             <div class="img-main">
